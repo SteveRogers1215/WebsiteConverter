@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteConverter", "WebsiteConverter\WebsiteConverter.csproj", "{83E26213-12A6-4F8A-8F71-2F151C56A3EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83E26213-12A6-4F8A-8F71-2F151C56A3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E26213-12A6-4F8A-8F71-2F151C56A3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E26213-12A6-4F8A-8F71-2F151C56A3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E26213-12A6-4F8A-8F71-2F151C56A3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F28FACA-D44A-4705-8B04-E2704B34F606}
+	EndGlobalSection
+EndGlobal
