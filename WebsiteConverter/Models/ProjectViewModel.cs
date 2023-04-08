@@ -36,28 +36,28 @@ namespace WebsiteConverter.Models
             };
             var project2 = new ProjectViewModel()
             {
-                Name = " ReactToDo ",
+                Name = " Storefront Application ",
                 ProjectDate = new DateTime(2023, 5, 19),
-                Description = " Under Construction ",
+                Description = " While at Centriq, I was tasked with building a mock e-commerce site. I've already designed the database that will be used for the application. Currently, I'm working on expanding the functionality of the application using MVC classes. Once that is complete GitHut link will be posted! ",
                 ID = 2,
-                Thumbnail = "React-icon.svg.png",
+                Thumbnail = "storefront.jpg",
                 URL = null,
                 GitHub = "",
-                Image1 = "React-icon.svg.png",
+                Image1 = "storefront.jpg",
                 //Image2 = "",
                 //Image3 = "",
                 //Filter = "web"
             };
             var project3 = new ProjectViewModel()
             {
-                Name = " Storefront Application ",
+                Name = "ReactToDo ",
                 ProjectDate = new DateTime(2023, 5, 19),
-                Description = " While at Centriq, I was tasked with building a mock e-commerce site. I've already designed the database that will be used for the application. Currently, I'm working on expanding the functionality of the application using MVC classes. Once that is complete GitHut link will be posted!  ",
+                Description = " Under Construction ",
                 ID = 3,
-                Thumbnail = "storefront.jpg",
+                Thumbnail = "React-icon.svg.png",
                 URL = null,
                 GitHub = "",
-                Image1 = "storefront.jpg",
+                Image1 = "React-icon.svg.png",
                 //Image2 = "",
                 //Image3 = "",
                 //Filter = "app"
