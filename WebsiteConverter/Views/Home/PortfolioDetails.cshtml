@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Portfolio Details";
+}
+@model WebsiteConverter.Models.ProjectViewModel
+<main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="align-items-center">
+
+                            <div class="swiper-slide">
+                                <img src="@Model.Image1" alt="">
+                            </div>
+
+                            @*<div class="swiper-slide">
+                                <img src="@Model.Image2" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="@Model.Image3" alt="">
+                            </div>*@
+
+                        </div>
+@*                        <div class="swiper-pagination"></div>
+*@                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="portfolio-info">
+                        <h3>Project information</h3>
+                        <ul>                            
+                            <li><strong>Project Name</strong>@Model.Name</li> <!--@@Model.Name-->
+                            <li><strong>Project Date</strong> @Model.ProjectDate.ToShortDateString()</li>
+                            <li><strong>Project GitHub URL</strong>: <a href="@Model.GitHub" target="_blank">@Model.GitHub</a></li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description">
+                        <h2>@Model.Name</h2><!--@@Model.Description-->
+                        <p>
+                            @Model.Description
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Details Section -->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+</main><!-- End #main -->
